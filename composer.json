@@ -1,0 +1,33 @@
+{
+    "name": "code-rhapsodie/get-url-contents-ez-twig-bundle",
+    "description": "",
+    "type": "symfony-bundle",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Code Rhapsodie",
+            "homepage": "https://www.code-rhapsodie.fr/"
+        },
+        {
+            "name": "Other contributors",
+            "homepage": "https://github.com/code-rhapsodie/get-url-contents-ez-twig-bundle/graphs/contributors"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CodeRhapsodie\\GetUrlContentsEzTwigBundle\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.0",
+        "ext-curl": "*",
+        "symfony/dependency-injection": "^3.4||^4.0||^5.0",
+        "symfony/twig-bundle": "^3.4||^4.0||^5.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    }
+}

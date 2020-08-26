@@ -1,0 +1,3 @@
+services:
+    CodeRhapsodie\GetUrlContentsEzTwigBundle\Twig\GetUrlContentsExtension:
+        tags: ['twig.extension']
