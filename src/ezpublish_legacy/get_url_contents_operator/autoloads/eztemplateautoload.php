@@ -1,8 +1,8 @@
 <?php
 
-$eZTemplateOperatorArray = [
-    [
+$eZTemplateOperatorArray = array(
+    array(
         'class' => 'GetUrlContentsOperator',
-        'operator_names' => ['get_url_contents'],
-    ],
-];
+        'operator_names' => array('get_url_contents'),
+    ),
+);

@@ -4,7 +4,7 @@ class GetUrlContentsOperator
 {
     public function operatorList()
     {
-        return ['get_url_contents'];
+        return array('get_url_contents');
     }
 
     public function namedParameterPerOperator()
@@ -14,14 +14,14 @@ class GetUrlContentsOperator
 
     public function namedParameterList()
     {
-        return [
-            'get_url_contents' => [
-                'url' => [
+        return array(
+            'get_url_contents' => array(
+                'url' => array(
                     'type' => 'string',
                     'required' => true,
-                ],
-            ],
-        ];
+                ),
+            ),
+        );
     }
 
     public function modify(&$tpl, &$operatorName, &$operatorParameters, &$rootNamespace, &$currentNamespace, &$operatorValue, &$namedParameters)
