@@ -1,6 +1,6 @@
-# Get Url Contents eZ Twig Bundme
+# Get Url Contents eZ Twig Bundle
 
-This bundles adds:
+This bundle adds:
 
 - a `get_url_contents` Twig function
 - a `get_url_contents` eZ Publish legacy template operator
